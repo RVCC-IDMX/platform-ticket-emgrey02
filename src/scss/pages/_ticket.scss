@@ -1,7 +1,62 @@
 @use '../layout/grid';
-@use '../base/typography';
+@use '../base/typography' as type;
 
 .header {
     padding: .25rem;
     border: 2px solid black;
+}
+
+.host {
+    &__names {
+        font-family: type.$host-names-font;
+        font-variant: small-caps;
+        font-weight: 600;
+        letter-spacing: .1ch;
+        word-spacing: .3ch;
+        font-size: 1.1rem;
+    }
+
+    &__occ {
+        font-family: type.$host-occ-font;
+        word-spacing: .2ch;
+        font-size: 1.1rem;
+    }
+}
+
+.date {
+    font-family: type.$date-main-font;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: 83.2%;
+    letter-spacing: 0.006em;
+    font-style: normal;
+    line-height: 43px
+}
+
+.reunion {
+    font-family: type.$reunion-font;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .2ch;
+}
+
+.group {
+    font-family: type.$group-font;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.platform {
+    font-family: type.$ticket-font;
+    text-transform: uppercase;
+    font-size: 3.4rem;
+    font-weight: 800;
+    line-height: 60px;
+    word-spacing: .4ch;
+
+    &--side {
+        font-size: 3rem;
+    }
 }

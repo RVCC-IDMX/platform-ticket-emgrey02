@@ -11,23 +11,25 @@
 
 .ticket {
     inline-size: 900px;
-    block-size: 350px;
+    block-size: 330px;
     background-color: #e9a779;
     padding-inline: 1rem;
     padding-block-start: 1.5rem;
     padding-block-end: 1rem;
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr;
     text-align: center;
+    align-items: flex-start;
 
     &__main {
         display: grid;
-        width: 600px;
+        width: 500px;
     }
 
     &__side {
         grid-column: 2;
+        justify-self: flex-start;
         display: grid;
         writing-mode: vertical-rl;
         
