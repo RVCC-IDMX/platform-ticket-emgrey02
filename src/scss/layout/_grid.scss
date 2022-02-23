@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+    margin-block: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.ticket {
+    inline-size: 900px;
+    block-size: 350px;
+    background-color: #e9a779;
+    padding-inline: 1rem;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1rem;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+
+    &__main {
+        display: grid;
+        width: 600px;
+    }
+
+    &__side {
+        grid-column: 2;
+        display: grid;
+        writing-mode: vertical-rl;
+        
+        .line {
+            width: 2px;
+            height: 300px;
+        }
+    }
+}

@@ -1,2 +1,7 @@
-@import "../../../node_modules/open-props/open-props.min.css";
-@import "../../../node_modules/open-props/normalize.min.css";
+@import "../../node_modules/open-props/open-props.min.css";
+@import "../../node_modules/open-props/normalize.min.css";
+
+hr {
+    margin-block: 0;
+    background-color: black;
+}
