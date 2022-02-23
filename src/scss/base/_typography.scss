@@ -25,19 +25,29 @@
 @font-face {
     font-family: "Mollen";
     src: url('../fonts/Mollen-RegularPersonalUse.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Kreon";
+    src: url('../fonts/Kreon-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mitr";
+    src: url('../fonts/Mitr-Bold.ttf') format('truetype');
 }
 
 //font variable declarations
 $host-names-font: "Piazzolla";
 $host-occ-font: "Mollen";
-
 $date-main-font: "Cabin";
-
-
 $reunion-font: "Cabin";
-
 $group-font: "Colour Me Purple";
+
 $ticket-font: "Smythe";
+
+$place-font: "Piazzolla";
 $date-side-font: "Piazzolla";
-$advice-font: "Mollen";
-$company-font: "Colour Me Purple";
+$advice-font: "Kreon";
+$company-font: "Mitr";

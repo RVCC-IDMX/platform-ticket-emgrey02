@@ -10,10 +10,11 @@
 }
 
 .ticket {
-    inline-size: 900px;
+    inline-size: 800px;
     block-size: 330px;
-    background-color: #e9a779;
-    padding-inline: 1rem;
+    background-image: url('../images/ticket-bkgd.png');
+    padding-inline-start: 1rem;
+    padding-inline-end: 3rem;
     padding-block-start: 1.5rem;
     padding-block-end: 1rem;
     display: grid;

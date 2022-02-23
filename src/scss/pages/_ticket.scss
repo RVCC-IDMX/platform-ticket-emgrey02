@@ -57,6 +57,42 @@
     word-spacing: .4ch;
 
     &--side {
-        font-size: 3rem;
+        font-size: 3.2rem;
+        line-height: 45px;
     }
+}
+
+.place {
+    font-family: type.$place-font;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.short-date {
+    font-family: type.$date-side-font;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 35px;
+    word-spacing: .5ch;
+    font-variation-settings: "opsz" 8;
+    padding-block-end: .4rem;
+}
+
+.advice {
+    font-family: type.$advice-font;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.company {
+    font-family: type.$company-font;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: bold;
+    letter-spacing: .23ch;
+    word-spacing: .2ch;
+    line-height: 20px;
+    padding-inline-start: 1rem;
 }
