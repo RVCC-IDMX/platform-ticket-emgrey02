@@ -1,6 +1,6 @@
 # Platform Ticket Recreation
 
-![Platform Ticket Reference Image](https://res.cloudinary.com/greypse/image/upload/v1645646082/platform--ticket_vdpuyy.png)
+<img width="1249" alt="platform--ticket" src="https://user-images.githubusercontent.com/62446436/155400537-a6095538-181e-4f93-8ba2-c7a14702da30.png">
 
 The ticket above is for an event in 1895 to celebrate Elizabeth Cady Stanton's 80th birthday. I replicated this old ticket, which was created using a letterpress at the time, with modern web development best practices - HTML and CSS. 
 
