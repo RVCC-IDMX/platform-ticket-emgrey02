@@ -1,34 +1,20 @@
-# Starter Page Builder
+# Platform Ticket Recreation
 
-## How to use this repo
+![Platform Ticket Reference Image](https://res.cloudinary.com/greypse/image/upload/v1645646082/platform--ticket_vdpuyy.png)
 
-1. Clone the repo
-1. In your terminal, run
-   ```bash
-   npm install
-   ```
-1. In your terminal, run the parcel watcher
-   ```bash
-   npm run dev
-   ```
+The ticket above is for an event in 1895 to celebrate Elizabeth Cady Stanton's 80th birthday. I replicated this old ticket, which was created using a letterpress at the time, with modern web development best practices - HTML and CSS. 
 
-### The Parcel dev script
+As there are no images or color on this ticket, emphasis and contrast come from the different fonts for each line on the ticket. The challenge is finding typfaces like these on the internet today and manipulating them so that I can best replicate the ticket.
 
-The Parcel dev script will watch your files for changes automatically and will live update your browser.
+<hr>
 
-1. In your browser, go to `http://localhost:1234/`
-1. ParcelJS will reload the page when changes are made
+Inspiration for how to organize the development of this ticket came from Olivia Ng's [Hogwarts Ticket](https://codepen.io/oliviale/pen/MZZYyO)
 
-### How to stop a watcher
-
-When you want to stop the watcher, click in the terminal and press ctrl-c
-
-## When you are ready to go to production
-
-1. In your terminal, run
-
-   ```bash
-   npm run build
-   ```
-
-1. The final version of your site will be in the `dist` folder.
+## Fonts used
+1. [Cabin](https://fonts.google.com/specimen/Cabin?preview.text=TUESDAY%20EVENING&preview.text_type=custom)
+2. [Colour Me Purple](https://www.1001freefonts.com/colour-me-purple.font)
+3. [Kreon-Bold](https://www.fontsquirrel.com/fonts/kreon)
+4. [Mitr-Bold](https://www.fontsquirrel.com/fonts/mitr)
+5. [Mollen](https://www.dafont.com/mollen.font)
+6. [Piazzolla](https://fonts.google.com/specimen/Piazzolla)
+7. [Smythe](https://www.1001freefonts.com/smythe.font)
