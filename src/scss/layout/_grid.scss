@@ -70,6 +70,6 @@
     width: 800px;
     height: 330px;
     background-image: url('../images/noise.png');
-    mix-blend-mode: multiply;
+    mix-blend-mode: exclusion;
     z-index: 2;
 }
